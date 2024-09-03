@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <button class="top-button" id="disconnectButton"> Connected to
+    <span id="accountId"></span>
+  </button>
+
+  <div class="section">
+    <h2>Associate A Token</h2>
+    <div class="centered-input">
+      <input type="text" placeholder="Token ID" id="associateTokenId">
+      <button id="associateButton">Associate</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Transfer A Fungible Token</h2>
+    <div class="input-group">
+      <input type="text" placeholder="Amount" id="transferAmount">
+      <input type="text" placeholder="Token ID / EVM address" id="transferTokenId">
+      <span>to</span>
+      <input type="text" placeholder="Account ID / EVM address" id="transferToAddress">
+      <button id="transferButton">Transfer</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Transfer A Non-Fungible Token</h2>
+    <div class="input-group">
+      <input type="text" placeholder="Token ID / EVM Address" id="nftTokenId">
+      <input type="text" placeholder="Serial Number" id="serialNumber">
+      <span>to</span>
+      <input type="text" placeholder="Account ID / EVM address" id="transferToAddressNft">
+      <button id="transferNftButton">Transfer NFT</button>
+    </div>
+  </div>
+
+  <script type="module" src="./account.js"></script>
+</body>
+
+</html>
