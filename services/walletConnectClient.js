@@ -27,7 +27,7 @@ function syncWalletconnectState() {
 export const NETWORK_CONFIG = {
   testnet: {
     network: "testnet",
-    jsonRpcUrl: "https://testnet.hedera.validationcloud.io/v1/https://testnet.hedera.validationcloud.io/v1/GYSdi5Rlhc-NmoBLSVJGsqVQDOL6C4lCCQbyHc3NvsM", // check out the readme for alternative RPC Relay urls
+    jsonRpcUrl: "https://testnet.hashio.io/api", // check out the readme for alternative RPC Relay urls
     mirrorNodeUrl: "https://testnet.mirrornode.hedera.com",
     chainId: "0x128",
   }
