@@ -34,7 +34,7 @@ export const NETWORK_CONFIG = {
 }
 
 // Create a new project in walletconnect cloud to generate a project id
-const walletConnectProjectId = "377d75bb6f86a2ffd427d032ff6ea7d3";
+const walletConnectProjectId = "PROJECT_ID";
 const currentNetworkConfig = NETWORK_CONFIG.testnet;
 const hederaNetwork = currentNetworkConfig.network;
 
