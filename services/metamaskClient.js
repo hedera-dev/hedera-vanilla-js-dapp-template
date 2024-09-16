@@ -12,7 +12,7 @@ const METAMASK_GAS_LIMIT_TRANSFER_NFT = 100_000;
 
 /* Set up a JSON-RPC endpoint for this project to connect to Hedera Testnet.
     Ref: https://docs.hedera.com/hedera/tutorials/more-tutorials/json-rpc-connections */
-const RPC_URL = 'https://testnet.hedera.validationcloud.io/v1/GYSdi5Rlhc-NmoBLSVJGsqVQDOL6C4lCCQbyHc3NvsM';
+const RPC_URL = 'https://testnet.hashio.io/api';
 
 export const switchToHederaNetwork = async (ethereum) => {
   try {
